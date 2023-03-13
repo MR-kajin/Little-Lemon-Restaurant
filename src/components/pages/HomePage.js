@@ -1,7 +1,7 @@
-import Heading from "../sections/headingPages/Heading";
-import Specials from "../sections/headingPages/Specials";
+import Heading from "../sections/homePages/Heading";
+import Specials from "../sections/homePages/Specials";
 import Testimonial from "../section/headingPages/Testimonial";
-import About from "../sections/headingPages/About";
+import About from "../sections/homePages/About";
 
 export default function Homepage() {
     return (
