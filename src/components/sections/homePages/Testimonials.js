@@ -1,5 +1,5 @@
-import TestimonialCard from "../../sections/homePages/CardInfo/TestimonialCard";
-import Carousel from "TestimonialsCarousel";
+import Carousel from './TestimonialCarousel'
+import TestimonialCard from './CardInfo/TestimonialCard';
 
 export default function Testimonials() {
     return (

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function ReservationForm() {
+export default function ReservationForm(props) {
     const [fName, setFName] = useState("");
     const [lName, setLName] = useState("");
     const [email, setEmail] = useState("");
@@ -9,8 +9,8 @@ export default function ReservationForm() {
     const [people, setPeople] = useState("");
     const [date, setDate] = useState("");
     const [occasion, setOccasion] = useState("");
-    const [preferences, setPreferences] = usestate("");
-    const [commments, setComments] = usestate("");
+    const [preferences, setPreferences] = useState("");
+    const [commments, setComments] = useState("");
 
     const [finalTime, setFinalTime] = useState(
         props.availableTimes.map(times => <option>{times}</option>)

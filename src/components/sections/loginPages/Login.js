@@ -1,6 +1,6 @@
 import HeroImage from "../../../assets/food/food4.webp";
 
-export default function Login(){
+export default function Order(){
     return (
         <header className="reserve-table">
           <img
