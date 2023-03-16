@@ -13,11 +13,9 @@ export default function Routing() {
 
             <Route path="/about" element={<About />} />
 
-            <Route path="/reservation" element={<Reservation />} />
+            <Route path="/reservations" element={<Reservation />} />
 
             <Route path="/order" element={<Order />} />
-
-            <Route path="/login" element={<Login />} />
 
             <Route path="/login" element={<Login />} />
 

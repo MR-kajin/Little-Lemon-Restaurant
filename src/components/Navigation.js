@@ -9,8 +9,8 @@ export default function Navigation(props) {
                 <Link to="/">
                     <img
                         src={require("../assets/nav-logo.png")}
-                        alt="Liggle Lemon logo"
-                        className="nav-image"
+                        alt="Little Lemon logo"
+                        className="nav-image-2"
                     >
                     </img>
                 </Link>
@@ -21,16 +21,14 @@ export default function Navigation(props) {
             <Link className="hoover-effect" to="/about">
                 <h1>About</h1>
             </Link>
-            <Link >
                 <a
-                    href={require("../assets/menu.webp")}
                     className="hoover-effect"
+                    href={require("../assets/menu.webp")}
                     target="_blank"
                     rel="noreferrer"
                 >
                     <h1>Menu</h1>
                 </a>
-            </Link>
             <Link className="hoover-effect" to="/reservations">
                 <h1>Reservations</h1>
             </Link>

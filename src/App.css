@@ -27,7 +27,7 @@ select {
 }
 
 body {
-  margin: 0;
+  margin: 0; /* removes white border around website*/
   padding: 0;
   margin-top: -22px;
 }
@@ -75,7 +75,7 @@ Link:link {
   margin-top: -2rem;
 }
 
-
+/* NAVBAR STYLING */
 .navbar-menu {
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
@@ -109,7 +109,14 @@ Link:link {
   margin-left: -1.25rem;
 }
 
+.nav-image-2 {
+  max-height: 4rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  margin-left: -1.25rem;
+}
 
+/* CALL TO ACTION */
 .call-to-action {
   background-color: #495e57;
   color: white;
@@ -209,7 +216,7 @@ Link:link {
   display: none;
 }
 
-
+/* TESTIMONIAL CARDS */
 .testimonials {
   padding: 0 5rem 2rem 5rem;
   animation-duration: 0.33s;
@@ -250,7 +257,7 @@ Link:link {
   margin: 0 2rem 0 2rem;
 }
 
-
+/* ABOUT */
 .about-us {
   background-color: #f4ce14;
   display: grid;
@@ -290,7 +297,7 @@ Link:link {
   left: 5rem;
 }
 
-
+/* FOOTER STYLING */
 footer {
   min-height: 13rem;
   background-color: #495e57;
@@ -347,7 +354,7 @@ footer > menu {
   padding: 0.5rem;
 }
 
-
+/* RESERVE A TABLE */
 .reserve-table {
   position: relative;
   text-align: center;
@@ -356,8 +363,8 @@ footer > menu {
 }
 
 .header-reserve {
-  width: 100vw;
-  height: 20rem;
+  width: 100vw; /* width of container */
+  height: 20rem; /* height of container */
   object-fit: cover;
 }
 
@@ -365,6 +372,7 @@ footer > menu {
   background-color: #495e57;
   padding: 0 3rem 0 3rem;
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -375,10 +383,19 @@ footer > menu {
 .reservation-form {
   padding: 2rem 0 0.5rem 0;
   text-align: center;
+  font-size: 2rem;
 }
 
 .reservation-form > div {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.reservation-form > div > input,select,textarea {
+  transform: scale(2);
+}
+
+.reservation-form > div > select option {
+  font-size: 1.5rem;
 }
 
 .confirmation-header {
@@ -390,7 +407,7 @@ footer > menu {
 }
 
 .confirmation-image {
-  height: 70vh;
+  height: 70vh; /* height of container */
   width: 100%;
   object-fit: cover;
 }
@@ -399,10 +416,7 @@ footer > menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 12vw;
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
 .redirect-button {
@@ -421,7 +435,7 @@ footer > menu {
   transition: 0.2s;
 }
 
-
+/* MEDIA QUERIES*/
 @media screen and (max-width: 60rem) {
   .action-button {
     font-size: 1.2rem;

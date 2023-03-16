@@ -1,4 +1,4 @@
-import Heading from "../sections/homePages/Heading";
+import Heading from "../sections/aboutPages/Heading";
 
 export default function About() {
     return (

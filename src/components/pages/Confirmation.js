@@ -15,7 +15,7 @@ export default function Confirmation() {
                 <h4>Thanks for dining with us!</h4>
             </section>
 
-            <section className="redirect-button">
+            <section className="redirect-buttons">
                 <a
                     className="redirect-button"
                     href={require("../../assets/menu.webp")}

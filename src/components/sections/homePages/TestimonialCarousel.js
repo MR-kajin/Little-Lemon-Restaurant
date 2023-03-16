@@ -4,7 +4,7 @@ import TestimonialCard from './CardInfo/TestimonialCard';
 
 export default function CarouselPage(){
     return (
-        <Carousel infiniteLoop={true} autoPlay={true} Interval={5000} showStatus={false}>
+        <Carousel infiniteLoop={true} autoPlay={true} Interval={5000} showStatus={false} showThumbs={false}>
         <TestimonialCard name="Micheal Caldwell" description="This is the best Mediterranean food that I've ever had!"/>
         <TestimonialCard name="Alan Chen" description="My Shiba Inu, Mugi, really loved the cozy vibes and 
             delicious food here."/>

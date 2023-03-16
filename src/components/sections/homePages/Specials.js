@@ -21,7 +21,7 @@ export default function Specials(){
                  and lemon zest."/>
             </section>
 
-            <section>
+            <section className="specials-carousel">
                 <Carousel />
             </section>
         </section>

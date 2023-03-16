@@ -10,7 +10,7 @@ export default function ReservationForm(props) {
     const [date, setDate] = useState("");
     const [occasion, setOccasion] = useState("");
     const [preferences, setPreferences] = useState("");
-    const [commments, setComments] = useState("");
+    const [comments, setComments] = useState("");
 
     const [finalTime, setFinalTime] = useState(
         props.availableTimes.map(times => <option>{times}</option>)
@@ -123,7 +123,7 @@ export default function ReservationForm(props) {
                 </select>
             </div>
             <div>
-                <label htmlFor="preferences">Seating preferences</label>
+                <label htmlFor="preferences">Seating preferences</label> <br></br>
                 <select
                     id="preferences"
                     value={preferences}
@@ -136,13 +136,13 @@ export default function ReservationForm(props) {
                 </select>
             </div>
             <div>
-                <label htmlFor="comments">Additional Comments</label>
+                <label htmlFor="comments">Additional Comments</label> <br></br><br></br>
                 <textarea
                     id="comments"
                     row={8}
-                    cols={50}
+                    cols={30}
                     placeholder="Additional Comments"
-                    value={commments}
+                    value={comments}
                     onChange={(e) => setComments(e.target.value)}
                 ></textarea>
             </div>
