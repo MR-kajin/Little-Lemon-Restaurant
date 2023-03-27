@@ -368,6 +368,19 @@ footer > menu {
   object-fit: cover;
 }
 
+.form-control {
+  border: 1px solid black
+}
+
+.error-control {
+  border: 1px solid red;
+}
+.error-text {
+  font-size: 1.2rem;
+  color: red;
+  margin-top: 20px;
+
+}
 .reserve-header-text {
   background-color: #495e57;
   padding: 0 3rem 0 3rem;
