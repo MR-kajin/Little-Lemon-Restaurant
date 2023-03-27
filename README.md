@@ -1,5 +1,5 @@
 # Little Lemon Restaurant
-This is the final capstone project for the Meta Front-end developer program on Coursera. It is a detailed and responsive website for the Little Lemon restaurant, with table-booking functionality built using React. The project utilizes HTML, CSS, JSX, and React, and integrates with third-party libraries such as react-router-dom and react-responsive-carousel.
+This is the final capstone project for the Meta Front-end developer program on Coursera. It is a detailed and responsive website for the Little Lemon restaurant, with table-booking functionality built using React, Formik, and Yup. . The project utilizes HTML, CSS, JSX, and React, and integrates with third-party libraries such as react-router-dom and react-responsive-carousel.
 
 ## Screenshots
 
@@ -17,6 +17,8 @@ The following third-party libraries and APIs were used to build the website:
 
 react-router-dom: for managing page routing
 react-responsive-carousel: for displaying a responsive carousel of images on the Home Page
+Formik: for building forms and handling form submissions in React
+Yup: for form validation
 
 ### Installation and Usage
 To install and run the project:
