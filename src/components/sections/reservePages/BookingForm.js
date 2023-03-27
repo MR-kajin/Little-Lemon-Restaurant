@@ -34,8 +34,9 @@ export default function ReservationForm(props) {
       email: '',
       people: '',
       phonenum: '',
-      comment: '',
+      comments: '',
       preferences: '',
+      occasion: '',
       date:{date},
     },
 
@@ -63,7 +64,7 @@ export default function ReservationForm(props) {
       .required('Required')
       .min(1,"Must be at least 1 person!")
       .max(100, "Must be less then 100 people!"),
-      comment: Yup.string()
+      comments: Yup.string()
       .optional()
     }),
 
@@ -159,6 +160,7 @@ export default function ReservationForm(props) {
                     id="occasion"
                     value={formik.values.occasion}
                     onChange={formik.handleChange}
+                    {...formik.getFieldProps('occasion')}
                 >
                     <option>None</option>
                     <option>Birthday</option>
@@ -173,6 +175,7 @@ export default function ReservationForm(props) {
                     id="preferences"
                     value={formik.values.preferences}
                     onChange={formik.handleChange}
+                    {...formik.getFieldProps('preferences')}
                 >
                     <option>None</option>
                     <option>Indoor</option>
@@ -189,6 +192,7 @@ export default function ReservationForm(props) {
                     placeholder="Additional Comments"
                     value={formik.values.comment}
                     onChange={formik.handleChange}
+                    {...formik.getFieldProps('comments')}
                 ></textarea>
             </div>
 
